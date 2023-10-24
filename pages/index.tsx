@@ -14,11 +14,11 @@ const Index = () => {
         <Panel header="Homepage" id="home">
             <Flex>
                 <StyledBox border="box" borderRadius="normal" marginRight="xLarge" padding="medium">
-                    <H4>Inventory count</H4>
+                    <H4>Inventory</H4>
                     <H1 marginBottom="none">{summary.inventory_count}</H1>
                 </StyledBox>
                 <StyledBox border="box" borderRadius="normal" marginRight="xLarge" padding="medium">
-                    <H4>Variant count</H4>
+                    <H4>Variant</H4>
                     <H1 marginBottom="none">{summary.variant_count}</H1>
                 </StyledBox>
                 <StyledBox border="box" borderRadius="normal" padding="medium">
